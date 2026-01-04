@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Creator Tips</title>
+  <style>
+    body{
+      font-family: Poppins, Arial;
+      background:#fff;
+      padding:20px;
+    }
+    h1{
+      text-align:center;
+    }
+    .box{
+      padding:20px;
+      margin:15px 0;
+      border-radius:12px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+      cursor:pointer;
+      transition:transform 0.2s;
+    }
+    .yt{background:#ffeaea;}
+    .ig{background:#f2ecff;}
+
+    /* animation class */
+    .click-animate{
+      transform:scale(0.95);
+      opacity:0.7;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>📢 YouTube & Instagram Tips</h1>
+
+<div class="box yt" onclick="goPage(this, 'youtube.html')">
+  <h2>📹 YouTube Tips</h2>
+  <p>Title, Thumbnail, Algorithm</p>
+</div>
+
+<div class="box ig" onclick="goPage(this, 'instagram.html')">
+  <h2>📸 Instagram Tips</h2>
+  <p>Reels reach, Hashtags, Growth</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
